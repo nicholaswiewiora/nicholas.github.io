@@ -1,0 +1,56 @@
+html {
+    background-color: black;
+    background-image: url(Assets/Images/Abstract4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    font-family: "Amatic SC", "Open Sans Condensed", sans-serif;/*what the fuck?*/
+    font-size: 25px; /*switch to RWD values*/
+    color: white;
+}
+/*fix fucking difference in spacing btwn 1st/2nd page
+(just switch back and forth and see)*/
+.nav-bar ul {
+    font-family: "Bad Script", cursive;
+    
+    position: fixed;
+    top: 0;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;/*fix this shit*/
+}
+
+.nav-bar li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 100px;/*fix this shit too*/
+}
+
+.nav-bar a, a:visited {
+    color: white;
+}
+
+.nav-bar a:hover {
+    color: #A03BB1;
+}
+
+.nav-bar a:active {
+    color: #00C6FF;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
