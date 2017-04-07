@@ -1,13 +1,12 @@
 html {
-    background-color: black;
     background-image: url(Assets/Images/Abstract2.jpg);
-    background-repeat: no-repeat;
-    /*-webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;*/
-    background-size: 100%;
-    
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: "Bad Script", cursive;
+    overflow-x: hidden;
 }
 
 .nav-bar ul {
